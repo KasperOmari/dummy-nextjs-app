@@ -17,10 +17,9 @@ export const LoadingPopup: FC<LoadingPopupProps> = ({ isVisible, close }) => {
             <div className="loader ring-spinner"></div>
             <button
               className="absolute top-2 right-2 text-white bg-transparent p-2 rounded-full hover:bg-[#444]"
-              onClick={close}
-            >
-              X
-            </button>
+              onClick={close}>
+                X
+              </button>
           </div>
         </div>
       );
